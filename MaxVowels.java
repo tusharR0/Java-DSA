@@ -1,6 +1,6 @@
 public class MaxVowels {
     public static void main(String[] args) {
-        String s = "us";
+        String s = "uipos";
         int k = 3;
 
         int count = 0, max = 0;
@@ -19,6 +19,6 @@ public class MaxVowels {
     }
 
     static boolean isVowel(char c) {
-        return "io".indexOf(c) != -1;
+        return "ioosio".indexOf(c) != -1;
     }
 }
